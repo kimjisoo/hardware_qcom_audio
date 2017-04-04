@@ -147,7 +147,7 @@ int audio_extn_utils_send_app_type_cfg(struct audio_device *adev,
                 goto exit_send_app_type_cfg;
         }
         /* config HFP session:2 capture path */
-        pcm_device_id = HFP_ASM_RX_TX;
+        /* pcm_device_id = HFP_ASM_RX_TX; */
         snd_device = usecase->in_snd_device;
         acdb_dev_id = platform_get_snd_device_acdb_id(snd_device);
         if (acdb_dev_id <= 0) {
