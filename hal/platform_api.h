@@ -19,7 +19,6 @@
 
 #include "voice.h"
 #define MAX_VOLUME_CAL_STEPS 15
-#define CODEC_BACKEND_DEFAULT_SAMPLE_RATE 48000
 
 struct amp_db_and_gain_table {
     float amp;
